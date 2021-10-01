@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace VehicleStuff
 {
@@ -30,6 +31,7 @@ namespace VehicleStuff
         }
     }
 
+    
     class Vehicle
     {
         private int wheels;
@@ -75,5 +77,20 @@ namespace VehicleStuff
         {
             return $"The truck has {Wheels} wheels, is {Colour} in colour and uses the fueltype {Fuel}.";
         }
+    }
+
+    class Garage
+    {
+        List<Vehicle> vehicles = new List<Vehicle>();
+        
+        
+        
+        
+        
+       
+            
+
+        
+        
     }
 }
